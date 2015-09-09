@@ -5,7 +5,7 @@
 Both ArcGIS and Geomatica offer a complete range of possibilities to make easier and automate workflows in order to give customized geospatial solutions.
 The Python script "Script.py" executes and automates workflow in both programs.
 
-Before to start it is important to have both software installed. Then install the “ArcGIS for Desktop Background Geoprocessing (64 bit)” and use it to incorporate PCI’s Python library in the script. Remember to enter the PCI’s library into the environmental variables of Windows.
+Before to start it is important to have both software installed. It is necessary the Spatial Analyst extension of ArcGIS. Then install the “ArcGIS for Desktop Background Geoprocessing (64 bit)” and use it to incorporate PCI’s Python library in the script. Remember to enter the PCI’s library into the environmental variables of Windows.
 
 The Python script runs an unsupervised classification (by applying K-Means Clustering) followed by a SIEVE filtering, vectorization and exportation to shape file of the final result.
 
